@@ -9,9 +9,8 @@ Table of contents
 2. Packages used  
 3. Text Analysis
 4. Pre-processing of text
-5. Modeling
-6. Deployment Testing
-7. Deployment
+5. Vectorization and Modeling
+6. Conclusion.
 
 
 # Description and the aim of Project
@@ -30,6 +29,7 @@ The aim of the model is to predict the Rating of hotel by Review.These Model is 
 8. [Regular Expression(re)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 9. [WordCloud](https://www.wordclouds.com/)
 10. [Scikitlearn(sklearn)](https://scikit-learn.org/stable/)
+11. [pickle](https://docs.python.org/3/library/pickle.html#:~:text=%E2%80%9CPickling%E2%80%9D%20is%20the%20process%20whereby,back%20into%20an%20object%20hierarchy)  
 
 
 # Text Analysis
@@ -52,5 +52,30 @@ Then, I perform Sentiment analysis to gain the sentiment of customer by 'Polarit
 4. Ploted Word CLoud to check the freequent words used in all reviews
 
 
-#Modeling
-The process of modeling means training a machine learning algorithm to predict the labels from the features, tuning it for the business need, and validating it on holdout data.To 
+# Vectorization and Modeling.
+Vectorization - Word vectorization is the process of encoding individual words into vectors so that the text can be easily analyzed or consumed by the machine learning algorithm. It’s difficult to analyse the raw corpus therefore a need to be convert it in to integers(best format is vectors) where we can apply mathematical operations and get insights from the data.
+
+Modeling - The process of modeling means training a machine learning algorithm to predict the labels from the features, tuning it for the business need, and validating it on holdout data.To choose best performing model.
+
+I tested six combination of algorithm and vectorization techniques which are as follows:-
+
+1. TF-IDF with Logistic regression
+2. TF-IDF with Random Forest
+3. TFIDF with Naive Bayes
+4. Count Vectorization with Logistic regression
+5. Count Vectorization with Random forest
+6. Count Vectorization with Naive Bayes
+
+TFIDF Vectorization - TFIDF short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus.The tf–idf value increases proportionally to the number of times a word appears in the document and is offset by the number of documents in the corpus that contain the word, which helps to adjust for the fact that some words appear more frequently.
+
+Count Vectorization - CountVectorizer creates a matrix in which each unique word is represented by a column of the matrix, and each text sample from the document is a row in the matrix. The value of each cell is nothing but the count of the word in that particular text sample. 
+
+Logistic Regression - Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist.
+
+Random Forest - Random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time.
+
+Naive Bayes - Naïve Bayes algorithm is a supervised learning algorithm, which is based on Bayes theorem and used for solving classification problems.It is a probabilistic classifier, which means it predicts on the basis of the probability of an object.
+
+# Conclusion
+  when i perform six diffrent combination of vectorization and algorithm for train the model then i found that, the Logistic Regression with tfidf vectorization gives best accuracy among all. 
+  When we pass statement in the defined function of model then we get the sentiment of that review in from of binary(0 and 1).   
