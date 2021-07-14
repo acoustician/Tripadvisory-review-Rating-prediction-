@@ -7,10 +7,11 @@ With this model, you can explore what makes a great hotel and maybe even use thi
 Table of contents   
 1. Description and the aim of Project
 2. Packages used  
-3. Pre-processing of text
-4. Modeling
-5. Deployment Testing
-6. Deployment
+3. Text Analysis
+4. Pre-processing of text
+5. Modeling
+6. Deployment Testing
+7. Deployment
 
 
 # Description and the aim of Project
@@ -31,6 +32,20 @@ The aim of the model is to predict the Rating of hotel by Review.These Model is 
 10. [Scikitlearn(sklearn)](https://scikit-learn.org/stable/)
 
 
-#Pre-Processing of text
+# Text Analysis
 
-1. 
+At first, I perform Exploratory data analysis (EDA) to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods.  
+Then, I perform Sentiment analysis to gain the sentiment of customer by 'Polarity' and 'Subjectivity'.  
+
+  Polarity - It is the expression that determines the sentimental aspect of an opinion. In textual data, the result of sentiment analysis can be determined for each entity         in the sentence, document or sentence. The sentiment polarity can be determined as positive, negative and neutral.  
+
+  Subjectivity - Subjectivity generally refer to personal opinion, emotion or judgment whereas objective refers to factual information pf the writer.
+  
+  
+  
+  
+# Pre-Processing of text
+
+1. Removing Stopwords - Stopwords are the English words which does not add much meaning to a sentence. They can safely be ignored without sacrificing the meaning of the sentence. For example, the words like the, he, have etc. Such words are already captured this in corpus named corpus.Using [TextBlob](https://textblob.readthedocs.io/en/dev/) library, i remove Stopwords 
+2.  Stemming/lemmatization - Stemming and Lemmatization both generate the root form of the inflected words, The difference is that stem might not be an actual word whereas, lemma is an actual language word.But, when i perform both than i found that stemming works better then lemmatization for particular problem.so, i go for stemming
+3. 
