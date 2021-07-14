@@ -19,6 +19,15 @@ The aim of the model is to predict the Rating of hotel by Review.These Model is 
 
 # Packages Used
 
-1. [Pandas](https://www.google.com "Google's Homepage") - Pandas is an open source Python package that is most widely used for data science/data analysis and machine learning tasks. In this project pandas is used for following tasks.
-  A. To Load data from csv file in to Dataframe.
-  B. 
+1. [Pandas](https://pandas.pydata.org/about/)
+2. [Numpy](https://numpy.org/)
+3. [Seaborn](https://seaborn.pydata.org/)
+4. [Matplotlib](https://matplotlib.org/)
+5. [TextBlob](https://textblob.readthedocs.io/en/dev/)
+6. [Natural Language Toolkit(NLTK)](https://www.nltk.org/)
+7. [SnowballStemmer](https://snowballstem.org/) 
+8. [Regular Expression(re)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+9. [WordCloud](https://www.wordclouds.com/)
+10.[Scikitlearn(sklearn)](https://scikit-learn.org/stable/)
+11.
+
