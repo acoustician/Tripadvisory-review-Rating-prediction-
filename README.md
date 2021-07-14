@@ -28,6 +28,6 @@ The aim of the model is to predict the Rating of hotel by Review.These Model is 
 7. [SnowballStemmer](https://snowballstem.org/) 
 8. [Regular Expression(re)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 9. [WordCloud](https://www.wordclouds.com/)
-10.[Scikitlearn(sklearn)](https://scikit-learn.org/stable/)
-11.
+10. [Scikitlearn(sklearn)](https://scikit-learn.org/stable/)
+11. 
 
