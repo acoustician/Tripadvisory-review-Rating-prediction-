@@ -15,4 +15,7 @@ Table of contents
 
 
 # Description and the aim of Project
-The aim of the model is to predict the Rating of hotel by Review of the hotel.These Model is trained by dataset of hotel consisting of 20k reviews crawled from Tripadvisor. These Dataset has two features, first one is Review and another one is Rating. Review is the opinion of the customer in form of text and Rating is the opinion of customers in form of number from 1 to 5.
+The aim of the model is to predict the Rating of hotel by Review.These Model is trained by dataset of hotel consisting of 20k reviews crawled from Tripadvisor. These Dataset has two features, first one is Review and another one is Rating.Review is the opinion of the customer in form of text and Rating is the opinion of customers in form of number from 1 to 5.These model gives Binary Rating when we pass Text Review in it.  
+
+
+# Model Building Techniques
