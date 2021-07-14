@@ -48,4 +48,9 @@ Then, I perform Sentiment analysis to gain the sentiment of customer by 'Polarit
 
 1. Removing Stopwords - Stopwords are the English words which does not add much meaning to a sentence. They can safely be ignored without sacrificing the meaning of the sentence. For example, the words like the, he, have etc. Such words are already captured this in corpus named corpus.Using [TextBlob](https://textblob.readthedocs.io/en/dev/) library, i remove Stopwords 
 2.  Stemming/lemmatization - Stemming and Lemmatization both generate the root form of the inflected words, The difference is that stem might not be an actual word whereas, lemma is an actual language word.But, when i perform both than i found that stemming works better then lemmatization for particular problem.so, i go for stemming
-3. 
+3. Applied Regular Expression to remove the punctuation and unwanted symbols if any.
+4. Ploted Word CLoud to check the freequent words used in all reviews
+
+
+#Modeling
+The process of modeling means training a machine learning algorithm to predict the labels from the features, tuning it for the business need, and validating it on holdout data.To 
