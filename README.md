@@ -73,10 +73,21 @@ Tested six combination of algorithm and vectorization techniques using [Scikitle
   
   [Deployment](https://github.com/acoustician/Trip-advisory-Review/blob/main/Deployment.py)
   
-  [Stremlit_run]()
   
+  Using anaconda prompt to ru  the streamlit
+  
+  
+  ![Stremlit_run](https://github.com/acoustician/Trip-advisory-Review/blob/main/stremlit%20run.jpg?raw=true)
+  
+  
+  
+  Have a look of streamlit application
   
   ![Deployment](https://github.com/acoustician/Trip-advisory-Review/blob/main/deployment%20streamlit.jpg?raw=true)
+  
+  When passed a Review which has Positive sentiment it returns Positive Review
+  
+  ![Positive]()
   
 
 # Conclusion
