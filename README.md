@@ -70,5 +70,5 @@ Tested six combination of algorithm and vectorization techniques using [Scikitle
 
 # Conclusion
   Performed six diffrent combination of vectorization and algorithm for train the model then found that, the Logistic Regression with tfidf vectorization gives best accuracy among all.  
-                                                      results = pickle.load(open('model', 'rb')).score(X, Y)
+                                                                    results = pickle.load(open('model', 'rb')).score(X, Y)
                 
