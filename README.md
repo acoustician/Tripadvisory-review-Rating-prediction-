@@ -67,8 +67,13 @@ Tested six combination of algorithm and vectorization techniques using [Scikitle
 5. [Count Vectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) with [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 6. [Count Vectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) with [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html).
 
+# Deployment and its testing
+  At first, Best model choosen out of the six combination of vectorizer and algorithm than perform the same for whole dataset without spliting the dtaset.The best model and vectorizer method is stored by using pickle.                                                                                                                                       For deployment testing a function was defined by using stored model from pickle, when a single sentence review passed to that function it returns sentiment of customer(you can also get that files which uploaded with these repository).  
+  These model is deployed using [Streamlit](https://streamlit.io/), screenshot is also attached to it.
+  
 
 # Conclusion
-  Performed six diffrent combination of vectorization and algorithm for train the model then found that, the Logistic Regression with tfidf vectorization gives best accuracy among all.  
-                                                                    results = pickle.load(open('model', 'rb')).score(X, Y)
+  Performed modeling by split the dataset, Perfromed six diffrent combination of vectorization and algorithm for train the model then found that the Logistic Regression with tfidf vectorization gives best accuracy among all. Than, applied those combination of Vectorizer and algorithm on whole dataset. These model gave 96.4% accuracy
+  
+  
                 
