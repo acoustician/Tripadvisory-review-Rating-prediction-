@@ -76,7 +76,7 @@ Tested six combination of algorithm and vectorization techniques using [Scikitle
       
   These model is deployed using [Streamlit](https://streamlit.io/), screenshot is also attached to it.
   
-  [Deployment](https://github.com/acoustician/Trip-advisory-Review/blob/main/Deployment.py)
+  [Deployment.py](https://github.com/acoustician/Trip-advisory-Review/blob/main/Deployment.py)
   
   
   
