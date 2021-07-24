@@ -10,7 +10,8 @@ Table of contents
 3. Text Analysis
 4. Pre-processing of text
 5. Vectorization and Modeling
-6. Conclusion.
+6. Deployment and testing
+7. Conclusion.
 
 
 # Description and the aim of Project
@@ -68,5 +69,10 @@ Tested six combination of algorithm and vectorization techniques using [Scikitle
 
 
 # Conclusion
-  when i perform six diffrent combination of vectorization and algorithm for train the model then i found that, the Logistic Regression with tfidf vectorization gives best accuracy among all. 
-  When we pass statement in the defined function of model then we get the sentiment of that review in from of binary(0 and 1).   
+  Performed six diffrent combination of vectorization and algorithm for train the model then found that, the Logistic Regression with tfidf vectorization gives best accuracy among all.
+                      tfIdfVectorizer=TfidfVectorizer(use_idf=True)
+                      X = tfIdfVectorizer.fit_transform(X
+                      model = LogisticRegression()
+                      model.fit(X,Y)
+                      results = model.score(X, Y)
+                
