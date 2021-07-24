@@ -87,7 +87,7 @@ Tested six combination of algorithm and vectorization techniques using [Scikitle
   
   When passed a Review which has Positive sentiment it returns Positive Review
   
-  ![Positive]()
+  ![Positive](https://github.com/acoustician/Trip-advisory-Review/blob/main/sentiment(p).jpg?raw=true)
   
 
 # Conclusion
