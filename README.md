@@ -123,7 +123,5 @@ Tested six combination of algorithm and vectorization techniques using [Scikitle
     
     
 # Conclusion
-  Performed modeling by split the dataset, Perfromed six diffrent combination of vectorization and algorithm for train the model then found that the Logistic Regression with tfidf vectorization gives best accuracy among all. Than, applied those combination of Vectorizer and algorithm on whole dataset. These model gave 94.7% accuracy
+  Performed modeling by split the dataset, Perfromed six diffrent combination of vectorization and algorithm for train the model then found that the Logistic Regression with tfidf vectorization gives best accuracy among all. Than, applied those combination of Vectorizer and algorithm on whole dataset. These model gave 94.7% accuracy.
   
-  
-                
